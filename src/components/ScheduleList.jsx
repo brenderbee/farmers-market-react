@@ -50,6 +50,13 @@ function ScheduleList(){
           booth={schedule.booth}
           key={index}/>
       )}
+      <style jsx>{`
+        .schedule-grid {
+          width: 20%;
+          margin: 0 auto;
+        }
+
+      `}</style>
     </div>
   );
 }

@@ -13,10 +13,23 @@ function Schedule(props){
       <style jsx>{`
         .day {
           background: lightgrey;
+          margin-bottom: 20px;
+          margin-top: 20px;
         }
 
         .day-content {
-          padding: 1.5rem;
+          padding: 1.2rem;
+        }
+
+        .day-content h3 {
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
+
+        .day-content p:last-child {
+          padding: 0;
+          margin: 0;
         }
       `}</style>
     </div>
