@@ -13,28 +13,28 @@ function ProduceMonth(props){
         </ul>
       </div>
       <style jsx>{`
-      .month {
-        background: lightgrey;
-        width: 30%;
-        min-width: 225px;
-        height: auto;
-        margin: 10px;
-      }
+        .month {
+          background: lightgrey;
+          width: 30%;
+          min-width: 225px;
+          height: auto;
+          margin: 10px;
+        }
 
-      .month-content {
-        padding: 1rem;
-      }
+        .month-content {
+          padding: 1rem;
+        }
 
-      .month-content h3 {
-        text-align: center;
-        padding: 0;
-        margin: 0;
-      }
+        .month-content h3 {
+          text-align: center;
+          padding: 0;
+          margin: 0;
+        }
 
-      .month-content li {
-        margin-bottom: 0.3rem;
-      }
-        `}
+        .month-content li {
+          margin-bottom: 0.3rem;
+        }
+          `}
       </style>
     </div>
   );

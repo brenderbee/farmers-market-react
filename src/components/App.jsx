@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Home from './Home';
 import ScheduleList from './ScheduleList';
 import ProduceMonthList from './ProduceMonthList';
 import { Switch, Route } from 'react-router-dom';
@@ -10,7 +11,8 @@ function App(){
     <div>
       <Header/>
       <Switch>
-        <Route exact path='/' component={ScheduleList} />
+        <Route exact path='/' component={Home} />
+        <Route exact path='/schedule' component={ScheduleList} />
         <Route path='/availableProduce' component={ProduceMonthList} />
         <Route component={Error404} />
       </Switch>

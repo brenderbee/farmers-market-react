@@ -11,7 +11,7 @@ function Header(){
     <div style={headerStyles}>
       <h1 className="header">Avery's Organics</h1>
       <div className="nav">
-        <Link to="/" className="links">Home</Link> | <Link to="/availableProduce" className="links">Available Produce</Link>
+        <Link to="/" className="links">Home</Link> | <Link to="/schedule" className="links">Schedule</Link> | <Link to="/availableProduce" className="links">Available Produce</Link>
       </div>
       <style jsx>{`
           .header {
