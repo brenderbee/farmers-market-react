@@ -1,19 +1,19 @@
-# _Brenda Franco_
+# Brenda Franco
 
-#### _Assignment for Epicodus_
+#### _Assignment for Epicodus to practice looping in JSX, styling in React, and client-side routing in React ._
 
 #### By: _**Brenda Franco**_
 
 ## Description
 
-_This webpage application is designed ...._
+_This webpage application is designed to be a static Farmer's Market site for Avery's Organics in Northern Oregon. The goal of this project is to practice looping in JSX, styling in React, and client-side routing in React._
 
-_This project uses Webpack to bundle and minify the code. The view library is React. Babel is used to transpile ES6. All dependencies required are included in this project._
+_This project uses Webpack to bundle and minify the code. The view library is React. Babel is used to transpile ES6. Normalize.css is used to provide cross-browser consistency for styling. All dependencies required are included in this project._
 
 ## Setup/Installation Requirement
 
 * Clone repository on your local computer.
-* If you already have Node, Homebrew, and Karma installed, then skip to "Install Dependencies."
+* If you already have Node and Homebrew installed, then skip to "Install Dependencies."
 
   #### Node: Windows / Linux Installation Instructions
   * To install Node on other systems, go to the <a href="https://nodejs.org/en/">Node website</a>, download and install the appropriate installer for your operating system.
@@ -30,10 +30,6 @@ _This project uses Webpack to bundle and minify the code. The view library is Re
     * $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   * Next, ensure Homebrew packages are run before the system versions of the same (which may be dated or not what we want) by executing the following:
     * $ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile
-
-  #### Karma Installation
-  * If you do not have Karma installed globally, then run the following:
-    * $ npm install -g karma-cli
 
   #### Install dependencies
   * Enter the following code in the command line to install all dependencies:
@@ -53,23 +49,27 @@ _Do not contact anyone with questions or comments regarding this project._
 ## Technologies Used
 
 _Front-end dependencies_
-  * prop-types^15.5.10
-  * react^15.5.4
-  * react-dom^15.5.4
-  * styled-jsx^2.2.7
+* file-loader^1.1.6
+* prop-types^15.5.10
+* react^15.5.4
+* react-dom^15.5.4
+* react-router-dom^4.0.0
+* styled-jsx^2.2.7
+* url-loader^0.6.2
 
 _Developer Dependencies_
-  * babel-core^6.24.1
-  * babel-loader^7.0.0
-  * babel-preset-es2015^6.24.1
-  * babel-preset-react^6.24.1
-  * eslint^4.13.1
-  * eslint-loader^2.0.0
-  * eslint-plugin-react^7.5.1
-  * html-webpack-plugin^2.29.0
-  * react-hot-loader^3.0.0-beta.7
-  * webpack^3.4.0
-  * webpack-dev-server^2.5.0
+* babel-core^6.24.1
+* babel-loader^7.0.0
+* babel-preset-es2015^6.24.1
+* babel-preset-react^6.24.1
+* eslint^4.13.1
+* eslint-loader^2.0.0
+* eslint-plugin-react^7.5.1
+* html-webpack-plugin^2.29.0
+* react-hot-loader^3.0.0-beta.7
+* webpack^3.4.0
+* webpack-dev-server^2.5.0
+
 
 
 
