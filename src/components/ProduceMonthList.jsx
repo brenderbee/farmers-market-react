@@ -281,6 +281,16 @@ function ProduceMonthList(){
             key={index}/>
         )}
       </div>
+      <style jsx>{`
+        .day-content {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space around;
+          width: 90%;
+          margin: 0 auto;
+        }
+      `}</style>
     </div>
   );
 }

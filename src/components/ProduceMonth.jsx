@@ -15,9 +15,10 @@ function ProduceMonth(props){
       <style jsx>{`
       .month {
         background: lightgrey;
-        width: 20%;
+        width: 30%;
+        min-width: 225px;
         height: auto;
-        margin: 20px;
+        margin: 10px;
       }
 
       .month-content {
