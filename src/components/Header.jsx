@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 function Header(){
   let headerStyles = {
-    fontSize: '32px',
+    fontSize: '4rem',
     color: 'black'
   };
 
   return(
-    <div style={headerStyles}>
-      <h1 className="header">Avery's Organics</h1>
+    <div>
+      <h1 className="header" style={headerStyles} >Avery's Organics</h1>
       <div className="nav">
-        <Link to="/" className="links">Home</Link> | <Link to="/schedule" className="links">Schedule</Link> | <Link to="/availableProduce" className="links">Available Produce</Link>
+        <a className="links"><Link to="/" >Home</Link></a> | <a className="links"><Link to="/schedule">Schedule</Link></a> | <a className="links"><Link to="/availableProduce" className="links">Available Produce</Link></a>
       </div>
       <style jsx>{`
           .header {
@@ -24,6 +24,13 @@ function Header(){
             display: flex;
             justify-content: center;
             align-items: center;
+            font-size: 1.6rem;
+          }
+
+          a {
+            color: blue;
+            margin-right: 0.8rem;
+            margin-left: 0.8rem;
           }
       `}</style>
     </div>
