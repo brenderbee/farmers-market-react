@@ -5,14 +5,17 @@ import { Link } from 'react-router-dom';
 function Header(){
   let headerStyles = {
     fontSize: '4rem',
-    color: 'black'
+    color: 'white',
+    textShadow: '2px 2px #000'
   };
 
   return(
     <div className="banner">
-      <h1 className="header" style={headerStyles} >Avery's Organics</h1>
+      <h1 className="header" style={headerStyles}>Avery's Organics</h1>
       <div className="nav">
-        <a className="links"><Link to="/" >Home</Link></a> | <a className="links"><Link to="/schedule">Schedule</Link></a> | <a className="links"><Link to="/availableProduce" className="links">Available Produce</Link></a>
+        <p className="test"><Link to="/" className="test">Home</Link></p>
+        <p className="test"><a className="links"><Link to="/schedule">Schedule</Link></a></p>
+        <p className="test"><a className="links"><Link to="/availableProduce" className="links">Available Produce</Link></a></p>
       </div>
       <style jsx>{`
           .banner {
@@ -36,10 +39,12 @@ function Header(){
             font-size: 1.6rem;
           }
 
-          a {
-            color: blue;
-            margin-right: 0.8rem;
-            margin-left: 0.8rem;
+          .test {
+            background: #8b4cfb;
+            padding: 1.2rem;
+            border-radius: 10px;
+            color: white;
+            margin-right: 10px;
           }
       `}</style>
     </div>

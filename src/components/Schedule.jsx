@@ -13,8 +13,8 @@ function Schedule(props){
       <style jsx>{`
         .day {
           background: lightgrey;
-          margin-bottom: 20px;
-          margin-top: 20px;
+          width: 15%;
+          margin-top: 1.2rem;
         }
 
         .day-content {

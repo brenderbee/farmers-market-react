@@ -52,8 +52,11 @@ function ScheduleList(){
       )}
       <style jsx>{`
         .schedule-grid {
-          width: 20%;
+          width: 90%;
           margin: 0 auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
         }
 
       `}</style>
