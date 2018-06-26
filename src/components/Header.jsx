@@ -3,17 +3,27 @@ import { Link } from 'react-router-dom';
 
 function Header(){
   let headerStyles = {
-    color: 'red'
+    fontSize: '32px',
+    color: 'black'
   };
 
   return(
     <div style={headerStyles}>
-      <h1 className="blue-bg">Help Queue</h1>
-      <Link to="/">Home</Link> | <Link to="/newticket">Create Ticket</Link>
+      <h1 className="header">Avery's Organics</h1>
+      <div className="nav">
+        <Link to="/" className="links">Home</Link> | <Link to="/newticket" className="links">Create Ticket</Link>
+      </div>
       <style jsx>{`
-          .blue-bg:hover {
-            cursor: pointer;
-            background: blue;
+          .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
       `}</style>
     </div>
